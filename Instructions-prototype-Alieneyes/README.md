@@ -2,7 +2,7 @@
 
 Alice Fogg
 
-[View this project online][https://editor.p5js.org/t0adfangz/full/0xzPWoPZF]
+[View this project online](https://editor.p5js.org/t0adfangz/full/0xzPWoPZF)
 
 ## Description
 
