@@ -2,8 +2,7 @@
 
 Alice Fogg
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
-
+[View this project online][https://editor.p5js.org/t0adfangz/full/vCSY35is4]
 ## Description
 
 This code generates an image that is representative of how I felt starting programming from absolutely zero experience.
