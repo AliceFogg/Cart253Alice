@@ -5,7 +5,7 @@ Alice Fogg
 [View this project online](URL_FOR_THE_RUNNING_PROJECT)
 
 ## Description
-LARP as a bead salesman. The faster you swipe, the bigger the beads!. 
+LARP as a bead salesman. The faster you swipe, the bigger the beads!
 
 ## Attribution
 
