@@ -6,7 +6,7 @@
 
 ## Description
 
-A game where the goal is simple: don't click the big red button. 
+A game where the goal is simple,: don't click the big red button. 
 
 ## Attribution
 
