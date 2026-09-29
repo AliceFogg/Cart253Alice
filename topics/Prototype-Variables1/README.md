@@ -6,11 +6,9 @@ Alice Fogg
 
 ## Description
 
-This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
-
+Have you ever wanted to blow a nice juicy piece of bubblegum, but don't feel like chewing, tasting, or blowing? well you're in luck! 
+Simply press anywhere on the screen and enjoy! sky's the limit! (and by sky, of course, I mean the 600 by 400 canvas.) 
 ## Attribution
-
-This bit should attribute any code, assets or other elements used taken from other sources. For example:
 
 > - This project uses [p5.js](https://p5js.org).
 
