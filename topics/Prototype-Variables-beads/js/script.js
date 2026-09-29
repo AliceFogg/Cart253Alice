@@ -1,24 +1,28 @@
-/**
- * Title of Project
- * Author Name
- * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
- */
+
+//* Bead Monger
+//* Alice Fogg
+//* LARP as a bead salesman. The faster you swipe, the bigger the beads!
 
 "use strict";
 
-/**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
+//set up a 600 by 400 canvas
 function setup() {
-
+    createCanvas(600, 400);
 }
 
 
-/**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
+//draw circles based on how fast the mouse is moving
 function draw() {
+    stroke(0)
+    strokeWeight(1)
+    let speed = dist(pmouseX, pmouseY, mouseX, mouseY)
 
+    let dia = map(speed, 0, 100, 5, 100)
+    ellipse(mouseX, mouseY, dia)
+
+
+    //change the colour based on the speed (constrained to pink,blue,purple)
+    let colorValue = map(speed, 0, 100, 50, 255)
+    colorValue = constrain(colorValue, 50, 255)
+    fill(colorValue, 100, 200)
 }
