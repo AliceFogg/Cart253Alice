@@ -1,6 +1,6 @@
 /**
 Conditionals Challenge
-YOUR NAME HERE AHHHHHH
+Alice Fogg, Mara, Nico
 */
 
 "use strict";
