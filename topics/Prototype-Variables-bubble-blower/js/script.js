@@ -14,6 +14,7 @@ function draw() {
 
     //make it expand as the cursor is held down
     cSize = frameCount % width
+    //(-2);
 
 
 
