@@ -10,7 +10,7 @@
 
 //Starting size of my bubble
 let circleSize = 5;
-
+let maxSize = 200;
 
 function setup() {
     createCanvas(500, 400);
@@ -18,23 +18,27 @@ function setup() {
 }
 
 function draw() {
-    background(220);
+    background(255, 105, 180);
 
     // Check if the mouse is pressed
     if (mouseIsPressed) {
+        // Draw the circle at the mouse position (make it pink)
+        fill(255, 182, 193);
         circle(mouseX, mouseY, circleSize)
         circleSize += 10 /
-            (frameCount * frameCount / 2000)
-
+            (frameCount * frameCount / 2000);
+        if (circleSize >= maxSize) {
+            circleSize = 5;
+        }
     } else {
         circleSize = 5; // Reset size when mouse is released
     }
 
-    // Draw the circle at the mouse position
-    fill(0, 102, 204);
 
 
 }
+
+
 
 
 
