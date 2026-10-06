@@ -10,6 +10,19 @@ This website serves as a place to compile work created for CART253, Including a 
 ## Prototypes:
 
 ### Instructions prototype: Abstract void
-![screenshot of running void prototype](/topics/Instructions-prototype-Abstract-void/template-p5-project/assets/Void-screenshot)
-(website link to it)
-(https://github.com/AliceFogg/Cart253Alice/topics/Instructions-prototype-Abstract-void/Abstract-void/js/script)
+
+![screenshot of running void prototype](./topics/Instructions-prototype-Abstract-void/Abstract-void/assets/Void-screenshot.png)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Instructions-prototype-Abstract-void/Abstract-void)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Instructions-prototype-Abstract-void/Abstract-void/)
+
+
+### Instructions prototype: Alien eyes 
+
+![screenshot of running void prototype](./topics/)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Instructions-prototype-Alieneyes/)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Instructions-prototype-Alieneyes/)
+

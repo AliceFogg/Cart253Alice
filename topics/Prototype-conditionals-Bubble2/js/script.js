@@ -10,7 +10,7 @@
 
 //Starting size of my bubble
 let circleSize = 5;
-let maxSize = 200;
+let maxSize = 350;
 
 function setup() {
     createCanvas(500, 400);
