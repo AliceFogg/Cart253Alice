@@ -20,22 +20,14 @@ let btnLabel = "Don't click me"; //want to figure out how to underline the "don'
 let fontName = "Arial";
 let clicked = false;
 
-//text in the center setup 
+
 function setup() {
     createCanvas(400, 400);
-    textFont(fontName);
-    textAlign(CENTER, CENTER);
-    textSize(14);
+
 }
 
-//draw a message when clicked 
 function draw() {
     background(240);
-    if (clicked == false) {
-        drawButton();
-    } else {
-        drawMessage();
-    }
 
 
 }
@@ -51,12 +43,6 @@ function drawButton() {
 
     fill(0); // Black text
     text(btnLabel, btnX, btnY);
-}
-
-//you lose message
-function drawMessage() {
-    fill(255, 0, 0);
-    text("You lose", btnX, btnY);
 }
 
 
