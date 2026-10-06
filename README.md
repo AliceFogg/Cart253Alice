@@ -20,7 +20,7 @@ This website serves as a place to compile work created for CART253, Including a 
 
 ### Instructions prototype: Alien eyes 
 
-![screenshot of running void prototype](./topics/)
+![screenshot of running Alien eyes prototype](./topics/Instructions-prototype-Alieneyes/assets/images/Screenshot%202026-10-06%20154112.png/)
 
 [link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Instructions-prototype-Alieneyes/)
 
