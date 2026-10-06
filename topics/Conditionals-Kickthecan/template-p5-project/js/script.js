@@ -3,6 +3,7 @@
  * Alice Fogg 
  * 
  * did anyone actually play kick the can? well now you (kinda) can online 
+ * MAKE SURE YOU KEEP THE CAN IN YOUR DRIVEWAY!! (the canvas) OTHRWISE YOU'RE GROUNDED!!
 */
 
 
@@ -45,10 +46,14 @@ function draw() {
             speedY = 0
 
         }
+    }
 
-
+    if (canX < 0 || canX > width) {
+        text("YOU'RE GROUNDED", 260, 100);
 
     }
+
+
 
 
     //Can rectangle base
@@ -76,4 +81,7 @@ function mousePressed() {
         }
         speedY = -10;
     }
+
+
+
 }
