@@ -32,4 +32,4 @@ This website serves as a place to compile work created for CART253, Including a 
 
 [link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Instructions-prototype-SadFace/)
 
-[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Instructions-prototype-Abstract-void/Abstract-void/)
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Instructions-prototype-SadFace/)
