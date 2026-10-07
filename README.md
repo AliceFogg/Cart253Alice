@@ -41,4 +41,14 @@ This website serves as a place to compile work created for CART253, Including a 
 
 [link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype-Variables-beads/)
 
-[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Instructions-prototype-Alieneyes/)
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype-Variables-beads/)
+
+
+### Variables prototype: Bubble Blower
+
+![screenshot of running Bubble Blower prototype](./topics/Prototype-Variables-bubble-blower/assets/images/Screenshot%202026-10-06%20223445.png/)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype-Variables-bubble-blower)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype-Variables-bubble-blower)
+

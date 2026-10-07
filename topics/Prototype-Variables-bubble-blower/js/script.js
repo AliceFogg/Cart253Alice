@@ -1,4 +1,14 @@
+
+/**Bubble Blower
+ * Alice Fogg
+ * Blow a piece of bubble gum! 
+ */
+
+
+
+
 function setup() {
+
 
     //pink background :3
     createCanvas(400, 400);
