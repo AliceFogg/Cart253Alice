@@ -7,7 +7,7 @@
 
 "use strict";
 
-//*Important credit to Mara, who helped me write a large amount of the code for this particular project* 
+//*Important credit to Mara, who helped me throughout this project* 
 
 
 // Button 
