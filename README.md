@@ -33,3 +33,12 @@ This website serves as a place to compile work created for CART253, Including a 
 [link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Instructions-prototype-SadFace/)
 
 [link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Instructions-prototype-SadFace/)
+
+
+### Variables prototype: Bead Monger!
+
+![screenshot of running Bead game prototype](./topics/Prototype-Variables-beads/assets/images/Screenshot%202026-10-06%20222159.png/)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype-Variables-beads/)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Instructions-prototype-Alieneyes/)
