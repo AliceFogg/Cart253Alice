@@ -52,3 +52,11 @@ This website serves as a place to compile work created for CART253, Including a 
 
 [link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype-Variables-bubble-blower)
 
+
+### Variables prototype: Button Game
+
+![screenshot of running button game prototype](./topics/Prototype-Variables-button-game/assets/images/Screenshot%202026-10-06%20224852.png/)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype-Variables-button-game/)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype-Variables-button-game/)
