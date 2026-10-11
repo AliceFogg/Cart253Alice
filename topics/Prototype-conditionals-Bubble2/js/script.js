@@ -33,8 +33,7 @@ function draw() {
 
 
         //add 25 divided by blowing frames to my circle (startes out expanding fast, and slows down the bigger the circle gets)
-        circleSize += 25
-            (blowingFrames);
+        circleSize += 25 / (blowingFrames);
 
         // decrease the maxSize every time the bubble is popped
         if (circleSize >= maxSize) {
