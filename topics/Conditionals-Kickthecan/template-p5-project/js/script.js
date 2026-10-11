@@ -10,30 +10,40 @@
 
 "use strict";
 
+
+//starting variables for my can
 let canX = 350
 let canY = 300
 
+//kicked condition setup
 let kicked = false;
 
+//speed starts out at 0
 let speedX = 0
 let speedY = 0
+
+//setup for gravity, and ground so the can will never go under 300y (and will bounce off)
 let gravity = 0.7
 let ground = 300
 
+//create canvas
 function setup() {
     createCanvas(600, 400);
 }
 
-
+//draw the background
 function draw() {
     background(225)
 
+
+    //setup for the kicked
     if (kicked) {
         canX = canX + speedX;
         canY = canY + speedY;
         speedY = speedY + gravity;
 
 
+        //kick the can to the opposite side that the mouse was pressed
         if (canY > ground) {
             canY = ground;
             speedY = speedY * -0.5
@@ -48,6 +58,7 @@ function draw() {
         }
     }
 
+    //if the can leaves either side of the canvas, display a "you're grounded"
     if (canX < 0 || canX > width) {
         text("YOU'RE GROUNDED", 260, 100);
 
@@ -69,6 +80,8 @@ function draw() {
     // 2. Draw the bottom lid
     ellipse(canX + 2, canY - 47, 80, 40);
 }
+
+//if the mouse is inside the can and the mouse is pressed, kick the can 
 function mousePressed() {
     if (mouseX > canX - 38 && mouseX < canX + 42 &&
         mouseY > canY - 220 && mouseY < canY - 30) {
