@@ -14,6 +14,12 @@ let distance = dist(width / 2, height / 2, mouseX, mouseY)
 //radius of centre circle + radius of the mouse circle
 let border = 50 + 25
 
+let scaryGuy;
+
+function preload() {
+    scaryGuy = loadImage('assets/images/Mandela-Catalogue.jpg')
+}
+
 function setup() {
     createCanvas(400, 400);
 }
