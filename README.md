@@ -60,3 +60,12 @@ This website serves as a place to compile work created for CART253, Including a 
 [link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype-Variables-button-game/)
 
 [link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype-Variables-button-game/)
+
+
+### Conditionals prototype: Kick the Can
+
+![screenshot of running button game prototype](./topics/Conditionals-Kickthecan/template-p5-project/assets/images/Screenshot%202026-10-11%20102550.png)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Conditionals-Kickthecan/)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Conditionals-Kickthecan/)

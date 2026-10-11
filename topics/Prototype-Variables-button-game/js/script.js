@@ -14,7 +14,7 @@
 let btnX = 200;
 let btnY = 200;
 let btnSize = 120; // diameter
-let btnLabel = "Don't click me"; //want to figure out how to underline the "don't"
+let btnLabel = "Don't click me"; //Don't click me message to appear on button (want to figure out how to underline the "don't")
 
 // Font
 let fontName = "Arial";
