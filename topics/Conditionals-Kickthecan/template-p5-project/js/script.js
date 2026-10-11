@@ -22,9 +22,9 @@ let kicked = false;
 let speedX = 0
 let speedY = 0
 
-//setup for gravity, and ground so the can will never go under 300y (and will bounce off)
+//setup for gravity and ground 
 let gravity = 0.7
-let ground = 300
+let ground = 300 //where the bounce is triggered 
 
 //create canvas
 function setup() {
@@ -43,19 +43,21 @@ function draw() {
         speedY = speedY + gravity;
 
 
-        //kick the can to the opposite side that the mouse was pressed
+        //kick the can based on which side of it was pressed, bounce if it hits the ground 
         if (canY > ground) {
             canY = ground;
             speedY = speedY * -0.5
 
             speedX = speedX * 0.8
+            if (abs(speedY) < 1 && abs(speedX) < 0.5) {
 
-            if (abs(speedY) < 1 && abs(speedX) < 0.5)
                 kicked = false
-            speedX = 0
-            speedY = 0
+                speedX = 0
+                speedY = 0
 
+            }
         }
+
     }
 
     //if the can leaves either side of the canvas, display a "you're grounded"
