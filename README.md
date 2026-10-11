@@ -69,3 +69,12 @@ This website serves as a place to compile work created for CART253, Including a 
 [link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Conditionals-Kickthecan/)
 
 [link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Conditionals-Kickthecan/)
+
+
+### Conditionals prototype: Bubble blower 2 
+
+![screenshot of running button game prototype](./topics/Prototype-conditionals-Bubble2/assets/images/Screenshot%202026-10-11%20111156.png)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype-conditionals-Bubble2/)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype-conditionals-Bubble2/)
