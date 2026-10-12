@@ -82,7 +82,7 @@ This website serves as a place to compile work created for CART253, Including a 
 
 ### Conditionals prototype: Jumpscare
 
-![screenshot of running jumpscare prototype](./topics/Conditionals-Jumpscare/assets/images/Mandela.Catalogue.jpg)
+![screenshot of running jumpscare prototype](./topics/Conditionals-Jumpscare/assets/images/Screenshot%202026-10-11%20213421.png)
 
 [link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Conditionals-jumpscare)
 
