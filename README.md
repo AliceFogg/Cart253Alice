@@ -64,7 +64,7 @@ This website serves as a place to compile work created for CART253, Including a 
 
 ### Conditionals prototype: Kick the Can
 
-![screenshot of running button game prototype](./topics/Conditionals-Kickthecan/template-p5-project/assets/images/Screenshot%202026-10-11%20102550.png)
+![screenshot of running kick the can prototype](./topics/Conditionals-Kickthecan/template-p5-project/assets/images/Screenshot%202026-10-11%20102550.png)
 
 [link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Conditionals-Kickthecan/)
 
@@ -73,8 +73,17 @@ This website serves as a place to compile work created for CART253, Including a 
 
 ### Conditionals prototype: Bubble blower 2 
 
-![screenshot of running button game prototype](./topics/Prototype-conditionals-Bubble2/assets/images/Screenshot%202026-10-11%20111156.png)
+![screenshot of running Bubble Blower 2 prototype](./topics/Prototype-conditionals-Bubble2/assets/images/Screenshot%202026-10-11%20111156.png)
 
 [link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype-conditionals-Bubble2/)
 
 [link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype-conditionals-Bubble2/)
+
+
+### Conditionals prototype: Jumpscare
+
+![screenshot of running jumpscare prototype](./topics/Conditionals-Jumpscare/assets/images/Mandela.Catalogue.jpg)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Conditionals-jumpscare)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Conditionals-jumpscare)
