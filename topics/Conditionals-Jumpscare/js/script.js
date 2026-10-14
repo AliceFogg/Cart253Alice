@@ -12,9 +12,14 @@
 let scaryGuy;
 
 function preload() {
-    scaryGuy = loadImage('assets/images/Mandela.Catalogue.jpg')
+    scaryGuy = loadImage('assets/images/Mandela.Catalogue.jpg');
+}
+async preload() {
+    myImage = await loadImage("./assets/images/Mandela.Catalogue.jpg");
 
 }
+
+
 
 function setup() {
     createCanvas(400, 400);
