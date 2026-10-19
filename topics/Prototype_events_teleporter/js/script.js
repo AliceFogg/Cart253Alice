@@ -12,13 +12,19 @@
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
 function setup() {
-
+    createCanvas(500, 400);
 }
 
-
-/**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
 function draw() {
 
+    //draw a little black circle
+    background(220);
+    ellipse(250, 200, 50);
+    fill(0)
+    noStroke();
+
+    //change the cursor to a hand
+    cursor(HAND)
+
+    if 
 }
