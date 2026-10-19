@@ -15,6 +15,8 @@ let spriteX = 250
 let spriteY = 200
 let spriteSize = 50
 let d = dist(mouseX, mouseY, spriteX, spriteY)
+let rad = (sprite / 2)
+
 
 function setup() {
     createCanvas(500, 400);
@@ -31,4 +33,9 @@ function draw() {
 
     //change the cursor to a hand
     cursor(HAND)
+
+    if (d <= rad) {
+
+
+    }
 }
