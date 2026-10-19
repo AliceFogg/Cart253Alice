@@ -14,11 +14,11 @@
 let spriteX = 250
 let spriteY = 200
 let spriteSize = 50
+let d = dist(mouseX, mouseY, spriteX, spriteY)
 
 function setup() {
     createCanvas(500, 400);
 
-    let d = dist(mouseX, mouseY, spriteX, spriteY)
 }
 
 function draw() {
