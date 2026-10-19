@@ -14,8 +14,7 @@
 let spriteX = 250
 let spriteY = 200
 let spriteSize = 50
-let d = dist(mouseX, mouseY, spriteX, spriteY)
-let rad = (sprite / 2)
+let rad = (spriteSize / 2)
 
 
 function setup() {
@@ -25,6 +24,8 @@ function setup() {
 
 function draw() {
 
+
+    let d = dist(mouseX, mouseY, spriteX, spriteY)
     //draw a little black circle
     background(220);
     ellipse(spriteX, spriteY, spriteSize);
@@ -35,7 +36,8 @@ function draw() {
     cursor(HAND)
 
     if (d <= rad) {
-
+        spriteX = random(spriteX)
+        spriteY = random(spriteY)
 
     }
 }
