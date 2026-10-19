@@ -9,17 +9,21 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * define the paramaters of sprite
 */
 function setup() {
     createCanvas(500, 400);
+    let sprite;
+    let spriteX = 250
+    let spriteY = 200
+    let spriteSize = 50
 }
 
 function draw() {
 
     //draw a little black circle
     background(220);
-    ellipse(250, 200, 50);
+    sprite(spriteX, spriteY, spriteSize);
     fill(0)
     noStroke();
 
