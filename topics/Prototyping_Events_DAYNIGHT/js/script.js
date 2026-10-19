@@ -7,13 +7,13 @@
 "use strict";
 
 /**
- * Create a 400 by 400 canvas + sunX and sunY variables, along with a mousedown event listener 
+ * Create a 400 by 400 canvas + sunX and sunY variables
 */
-//addEventListener("mousedown", (event) => { moveSUN })
-//onmousedown = (event) => { }
 
 let sunX = 200
 let sunY = 100
+
+
 
 function setup() {
     createCanvas(400, 400);
@@ -24,10 +24,21 @@ function setup() {
  * Draw a sun on a blue sky
 */
 function draw() {
-    background(173, 216, 230);
 
+    if (sunX > width || sunX < 0) {
+        background = (0, 0, 139);
+    } else {
+        background(173, 216, 230);
+    }
 
     fill(255, 219, 88);
     ellipse(sunX, sunY, 100);
+
+    if (mouseIsPressed) {
+
+        sunX = mouseX
+        sunY = mouseY
+    }
+
 
 }
