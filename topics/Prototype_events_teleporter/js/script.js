@@ -10,25 +10,25 @@
 
 /**
  * define the paramaters of sprite
-*/
+*/    let sprite;
+let spriteX = 250
+let spriteY = 200
+let spriteSize = 50
+
 function setup() {
     createCanvas(500, 400);
-    let sprite;
-    let spriteX = 250
-    let spriteY = 200
-    let spriteSize = 50
+
+    let d = dist(mouseX, mouseY, spriteX, spriteY)
 }
 
 function draw() {
 
     //draw a little black circle
     background(220);
-    sprite(spriteX, spriteY, spriteSize);
+    ellipse(spriteX, spriteY, spriteSize);
     fill(0)
     noStroke();
 
     //change the cursor to a hand
     cursor(HAND)
-
-    if 
 }
