@@ -106,9 +106,9 @@ This website serves as a place to compile work created for CART253, Including a 
 
 ### Events prototype: Bank account checker
 
-![screenshot of running Bank account checker prototype](./topics/Conditionals-Jumpscare/assets/images/Screenshot%202026-10-11%20213421.png)
+![screenshot of running Bank account checker prototype](./topics/Prototype_Events_BANKACCOUNTCHECKER/assets/images/Screenshot%202026-10-20%20154143.png)
 
-[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Conditionals-jumpscare)
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype_Events_BANKACCOUNTCHECKER/)
 
-[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Conditionals-jumpscare)
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_Events_BANKACCOUNTCHECKER/)
 

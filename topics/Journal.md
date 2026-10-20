@@ -16,3 +16,7 @@ I had a lot of fun with this assignment. I needed a lot help to be able to put w
 ## Assignment 4, "Prototyping: Conditionals":
 
 This assignment is where I really found out that 'help' can be a blessing and a curse. For 'Kick the Can', Mara and me spent over an hour and a half working together on the idea. However, with her having much more programming experience than me she ended up taking the reigns for a lot of aspects, and explained her reasoning to me. However, because a lot of the logic was from her, I had a hard time modifying things later. For example, in the original code we wrote, the can was meant to bounce off of the canvas walls. In an effort to make the code more my own, I decided to change it so the can could leave the canvas, and when it did, text would appear. Because I recieved so much help making the original code, it took many times re-reading and understanding what existed already in order to change it. I think in the future I will look to people like Sabine and Micheal for help, because they are trained in *teaching* coding which would be more useful to me in the long run. I also found the importance of commenting as I went, because I ran into an issue in my Bubble Blower 2 prototype where I couldn't spot an error, because I didn't comment saying that I wanted to divide two variables. Because of this, it took me a very long time to realize that the error was that I forgot a / , and they were being *multiplied* instead. 
+
+
+## Assignment 5, "Prototyping: Events":
+
