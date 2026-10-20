@@ -10,9 +10,13 @@
  * Create a 400 by 400 canvas + sunX and sunY variables
 */
 
-let sunX = 200
-let sunY = 100
-
+let sunX = 200;
+let sunY = 100;
+let backgr = {
+    r: 173,
+    g: 216,
+    b: 230
+};
 
 
 function setup() {
@@ -24,20 +28,17 @@ function setup() {
  * Draw a sun on a blue sky
 */
 function draw() {
-
-    if (sunX > width || sunX < 0) {
-        background = (0, 0, 139);
-    } else {
-        background(173, 216, 230);
-    }
-
+    background(backgr.r, backgr.g, backgr.b)
     fill(255, 219, 88);
     ellipse(sunX, sunY, 100);
 
     if (mouseIsPressed) {
 
-        sunX = mouseX
-        sunY = mouseY
+        sunY = (sunY + 3)
+
+        backgr.r = backgr.r - 5
+        backgr.b = backgr.b - 5
+        backgr.g = backgr.g - 5
     }
 
 

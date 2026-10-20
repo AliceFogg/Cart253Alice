@@ -40,8 +40,8 @@ function draw() {
     //if the distance of the mouse is less than or equal to the radius of the circle, 
     // then teleport the circle to a random X and Y coordinate 
     if (d <= rad) {
-        spriteX = random(spriteX)
-        spriteY = random(spriteY)
+        spriteX = random(0, 400)
+        spriteY = random(0, 400)
 
     }
 }
