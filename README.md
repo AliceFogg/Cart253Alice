@@ -96,10 +96,19 @@ This website serves as a place to compile work created for CART253, Including a 
 
 [link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_events_sprite/)
 
-## Events prototype: Day N Night
+### Events prototype: Day N Night
 
-![screenshot of running jumpscare prototype](./topics/Prototyping_Events_DAYNIGHT/assets/images/Screenshot%202026-10-20%20132048.png)
+![screenshot of running Day N Night prototype](./topics/Prototyping_Events_DAYNIGHT/assets/images/Screenshot%202026-10-20%20132048.png)
 
 [link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototyping_Events_DAYNIGHT/)
 
 [link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototyping_Events_DAYNIGHT/)
+
+### Events prototype: Bank account checker
+
+![screenshot of running Bank account checker prototype](./topics/Conditionals-Jumpscare/assets/images/Screenshot%202026-10-11%20213421.png)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Conditionals-jumpscare)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Conditionals-jumpscare)
+
