@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Catch the sprite 
+ * Alice Fogg
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Try to catch the sprite! careful, he's shy..
  */
 
 "use strict";
@@ -16,18 +15,21 @@ let spriteY = 200
 let spriteSize = 50
 let rad = (spriteSize / 2)
 
-
+//create 500 by 400 canvas 
 function setup() {
     createCanvas(500, 400);
 
 }
 
+
 function draw() {
 
-
+    //define distance of the cursor and the sprite 
     let d = dist(mouseX, mouseY, spriteX, spriteY)
-    //draw a little black circle
+
+    //Background colour
     background(220);
+    //draw a little black circle
     ellipse(spriteX, spriteY, spriteSize);
     fill(0)
     noStroke();
@@ -35,6 +37,8 @@ function draw() {
     //change the cursor to a hand
     cursor(HAND)
 
+    //if the distance of the mouse is less than or equal to the radius of the circle, 
+    // then teleport the circle to a random X and Y coordinate 
     if (d <= rad) {
         spriteX = random(spriteX)
         spriteY = random(spriteY)
