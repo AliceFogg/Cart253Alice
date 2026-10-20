@@ -95,3 +95,11 @@ This website serves as a place to compile work created for CART253, Including a 
 [link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype_events_sprite/)
 
 [link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_events_sprite/)
+
+## Events prototype: Day N Night
+
+![screenshot of running jumpscare prototype](./topics/Prototyping_Events_DAYNIGHT/assets/images/Screenshot%202026-10-20%20132048.png)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototyping_Events_DAYNIGHT/)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototyping_Events_DAYNIGHT/)
