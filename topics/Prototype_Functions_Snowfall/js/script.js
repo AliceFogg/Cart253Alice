@@ -11,10 +11,14 @@
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
+let currentBackground = "#D3D3D3"
+
+
 let anvil = {
     x: 0,
     y: 0,
-    size: 100,
+    width: 120,
+    height: 50,
     speed: 0
 }
 
@@ -36,7 +40,7 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
-    background(220)
+    background(currentBackground)
     moveAnvil()
     drawMe()
     drawAnvil()
@@ -45,7 +49,7 @@ function draw() {
 }
 function drawAnvil() {
     fill(110, 110, 102)
-    rect(anvil.x, anvil.y, 120, 50)
+    rect(anvil.x, anvil.y, anvil.width, anvil.height)
 
 
 }
@@ -63,15 +67,15 @@ function moveAnvil() {
 }
 
 function checkOverlap() {
-    if (me.x + me.width / 2 > anvil.x - anvil.width / 2 &&
-        me.x - me.width / 2 < anvil.x + anvil.width / 2 &&
-        me.y + me.height / 2 > anvil.y - anvil.height / 2 &&
-        me.y - me.height / 2 < anvil.y + anvil.height / 2) {
+    if (me.x + me.width > anvil.x - anvil.width &&
+        me.x - me.width < anvil.x + anvil.width &&
+        me.y + me.height > anvil.y - anvil.height &&
+        me.y - me.height < anvil.y + anvil.height) {
         // They overlap, so change the background
-        background = (255, 0, 0);
+        currentBackground = "#FF0000";
     } else {
         // They don't overlap, so use the default background
-        background = (220);
+        currentBackground = "#D3D3D3";
     }
 
 
