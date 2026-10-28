@@ -6,6 +6,8 @@
  */
 
 "use strict";
+
+//mood starts off happy
 let mood = "happy";
 
 
@@ -45,17 +47,17 @@ function drawHappy() {
   arc(200, 300, 100, 80, TWO_PI, PI)
 }
 
+//create a 400 by 400 canvas
 function setup() {
   createCanvas(400, 400)
 }
 
 
-/**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
-function draw() {
-  background(232, 235, 52);
 
+function draw() {
+  background(232, 235, 52); //draw the background
+
+  //Connect moods to draw moods function
   if (mood === "happy") {
     drawHappy();
   } else if (mood === "neutral") {
@@ -67,9 +69,12 @@ function draw() {
 
 }
 
+//If the mouse is pressed one time, mood becomes neutral (so drawNeutral)
 function mousePressed() {
   mood = "neutral"
 }
+
+//if the mouse is double clicked, the mood becomes sad, so drawSad is called
 function doubleClicked() {
   mood = "sad"
 }
