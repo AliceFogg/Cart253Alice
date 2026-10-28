@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Anvil Fall
+ * Alice Fogg
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * oh no an anvil is falling from the sky! I hope it doesn't hit me..
  */
 
 "use strict";
@@ -13,7 +12,7 @@
 */
 let currentBackground = "#D3D3D3"
 
-
+//Anvil parameters
 let anvil = {
     x: 0,
     y: 0,
@@ -22,6 +21,7 @@ let anvil = {
     speed: 0
 }
 
+//Me parameters 
 let me = {
     x: 200,
     y: 320,
@@ -29,25 +29,37 @@ let me = {
     height: 80
 }
 
+
 function setup() {
 
+    //Create 500 x 400 canvas
     createCanvas(500, 400);
+
+    //Give anvil a random x value, and a y value of 0
     anvil.x = random(0, width);
     anvil.y = 0
 }
 
 
-/**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
+
 function draw() {
+
+    //display the current background
     background(currentBackground)
+
+    //Move the anvil downward with gravity 
     moveAnvil()
+
+    //draw me at the bottom of the screen, and anvil at the top
     drawMe()
     drawAnvil()
+
+    //check if anvil and me are overlapping
     checkOverlap()
 
 }
+
+//how to draw the anvil
 function drawAnvil() {
     fill(110, 110, 102)
     rect(anvil.x, anvil.y, anvil.width, anvil.height)
@@ -55,11 +67,13 @@ function drawAnvil() {
 
 }
 
+//how to draw me 
 function drawMe() {
     fill(255, 255, 158)
     rect(me.x, me.y, me.width, me.height)
 }
 
+//move the anvil down the y axis at a speed of .2
 function moveAnvil() {
 
     anvil.speed = anvil.speed + .2
@@ -67,6 +81,7 @@ function moveAnvil() {
 
 }
 
+//how to check if the anvil and me are overlapping
 function checkOverlap() {
     if (me.x + me.width > anvil.x - anvil.width &&
         me.x - me.width < anvil.x + anvil.width &&
