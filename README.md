@@ -112,3 +112,23 @@ This website serves as a place to compile work created for CART253, Including a 
 
 [link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_Events_BANKACCOUNTCHECKER/)
 
+### Functions prototype: Face guy
+![screenshot of running Face guy prototype](./topics/Protoype_Functions_Faceguy/assets/images/Screenshot%202026-10-27%20220344.png)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype_Functions_Faceguy)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_Functions_Faceguy)
+
+### Functions prototype: Sprite(s)
+![screenshot of running Sprite(s) prototype](./topics/Prototype_Functions_SPRITES/assets/images/Screenshot%202026-10-27%20221500.png)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype_Functions_SPRITES)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_Functions_SPRITES)
+
+### Functions prototype: Anvil fall
+![screenshot of running Anvil fall prototype](./topics/Protoype_Functions_Faceguy/assets/images/Screenshot%202026-10-27%20220344.png)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype_Functions_Faceguy)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_Functions_Faceguy)
