@@ -25,7 +25,8 @@ let anvil = {
 let me = {
     x: 200,
     y: 320,
-    size: 80,
+    width: 80,
+    height: 80
 }
 
 function setup() {
@@ -56,7 +57,7 @@ function drawAnvil() {
 
 function drawMe() {
     fill(255, 255, 158)
-    square(me.x, me.y, me.size)
+    rect(me.x, me.y, me.width, me.height)
 }
 
 function moveAnvil() {

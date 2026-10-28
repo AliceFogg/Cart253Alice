@@ -127,8 +127,8 @@ This website serves as a place to compile work created for CART253, Including a 
 [link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_Functions_SPRITES)
 
 ### Functions prototype: Anvil fall
-![screenshot of running Anvil fall prototype](./topics/Protoype_Functions_Faceguy/assets/images/Screenshot%202026-10-27%20220344.png)
+![screenshot of running Anvil fall prototype](./topics/Prototype_Functions_AnvilFall/assets/images/Screenshot%202026-10-28%20112639.png)
 
-[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype_Functions_Faceguy)
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype_Functions_AnvilFall)
 
-[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_Functions_Faceguy)
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_Functions_AnvilFall)
