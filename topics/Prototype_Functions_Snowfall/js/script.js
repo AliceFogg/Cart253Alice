@@ -37,11 +37,10 @@ function setup() {
 */
 function draw() {
     background(220)
-
     moveAnvil()
     drawMe()
     drawAnvil()
-
+    checkOverlap()
 
 }
 function drawAnvil() {
@@ -68,11 +67,11 @@ function checkOverlap() {
         me.x - me.width / 2 < anvil.x + anvil.width / 2 &&
         me.y + me.height / 2 > anvil.y - anvil.height / 2 &&
         me.y - me.height / 2 < anvil.y + anvil.height / 2) {
-        // They overlap, so change the smaller shape's color
-        small.stroke = color(255, 0, 0);
+        // They overlap, so change the background
+        background = (255, 0, 0);
     } else {
-        // They don't overlap, so use the default color
-        small.stroke = color(255);
+        // They don't overlap, so use the default background
+        background = (220);
     }
 
 
