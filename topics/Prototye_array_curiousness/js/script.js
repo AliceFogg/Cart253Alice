@@ -8,7 +8,15 @@
 
 "use strict";
 
-let Friends = [];
+let friend = {
+    x: 200,
+    y: 50,
+    size: 30
+
+}
+
+let friends = [];
+
 
 /**
  * Create the canvas
@@ -19,82 +27,50 @@ function setup() {
 }
 
 /**
- * Creates a random ball
+ * 
  */
-function createBall() {
-    // Create a ball object with appropriate properties
-    const newBall = {
+function makeFriend() {
+    const newFriend = {
         // Position and dimensions
-        x: 200,
-        y: 200,
-        size: 20,
-        // Colour
+        x: friend.x,
+        y: friend.y,
+        size: friend.size,
         fill: "#000000",
-        // Movement
         velocity: {
-            x: random(-5, 5),
-            y: random(-5, 5)
+            x: 2,
+            y: 2,
         }
-    };
-    return newBall;
+    }
+    return newFriend;
 }
 
-/**
- * Moves, bounces, and draws every ball in the array
- */
+function drawFriend() {
+    const newFriend = {
+        fill(0);
+    circle(friend.x, friend.y, friend.size);
+    fill(255);
+    circle(friend.x - 7, friend.y - 5, 5);
+    circle(friend.x + 7, friend.y - 5, 5);
+
+}
+}
+function moveFriend() {
+    friend.x += friend.velocity.x;
+    friend.y += friend.velocity.y;
+}
+
 function draw() {
-    background("#87ceeb");
+    background(225);
 
-    // Go through every ball in the array
-    for (let ball of balls) {
-        moveBall(ball);
-        bounceBall(ball);
-        drawBall(ball);
+    for (let friend of friends) {
+        moveFriend(friend);
+        drawFriend(friend);
+
     }
+
 }
 
-/**
- * Adds a new ball to the array each time the mouse is clicked
- */
 function mousePressed() {
-    const newBall = createBall();
-    balls.push(newBall);
-}
-
-/**
- * Moves the ball according to its velocity
- */
-function moveBall(ball) {
-    ball.x += ball.velocity.x;
-    ball.y += ball.velocity.y;
-}
-
-/**
- * Bounces the ball off the walls
- */
-function bounceBall(ball) {
-    // Check if the ball has reached the left or right
-    const bounceX = (ball.x > width || ball.x < 0);
-    // Check if the ball has reached the top or bottom
-    const bounceY = (ball.y > height || ball.y < 0);
-
-    // Handle bouncing horizontally
-    if (bounceX) {
-        ball.velocity.x *= -1;
-    }
-    // Handle bouncing vertically
-    if (bounceY) {
-        ball.velocity.y *= -1;
-    }
-}
-
-/**
- * Draw the ball on the canvas
- */
-function drawBall(ball) {
-    push();
-    noStroke();
-    fill(ball.fill);
-    ellipse(ball.x, ball.y, ball.size);
-    pop();
+    const newFriend = makeFriend();
+    friends.push(newFriend);
 }
