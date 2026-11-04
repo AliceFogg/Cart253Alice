@@ -1,3 +1,12 @@
+/**
+ * Worm simulation
+ * Alice Fogg
+ * 
+ * Eat through the dirt! you're a worm
+ */
+
+
+
 "use strict";
 
 const head = {
@@ -15,7 +24,10 @@ const head = {
 function setup() {
     createCanvas(400, 400);
 
-    // Looks nicer without the cursor?
+    //draw a brown background in setup so it only gets drawn once
+    background(150, 75, 0);
+
+    // remove the cursor
     noCursor();
 }
 
@@ -23,7 +35,6 @@ function setup() {
  * Draws the rings with a for loop
  */
 function draw() {
-    background(150, 75, 0);
 
     head.x = mouseX;
     head.y = mouseY;
@@ -31,12 +42,7 @@ function draw() {
     for (let i = 0; i < head.trail.length; i++) {
         // The current element of the trail
         let element = head.trail[i];
-        // Get the shade for this element of the trail
-        // based on its position in the array (older trail elements
-        // will be darker)
-        // let shade = map(i, 0, head.trail.length, 50, 255);
 
-        // Draw the element
         push();
         noStroke();
         fill(255);
@@ -47,7 +53,7 @@ function draw() {
     // Draw the main shape (aligned to the mouse)
     push();
     noStroke();
-    fill(255);
+    fill(184, 141, 148);
     ellipse(head.x, head.y, head.diameter);
     pop();
 
@@ -60,8 +66,6 @@ function draw() {
 
     // Check if the trail is too long and remove the oldest if so
     if (head.trail.length >= head.maxTrailLength) {
-        // shift() will remove the "oldest" element
-        // It's kind of the opposite of push()
         head.trail.shift();
     }
 }

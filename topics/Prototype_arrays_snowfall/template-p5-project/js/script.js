@@ -1,3 +1,12 @@
+/**
+ * Snowfall!
+ * Alice Fogg
+ * 
+ * click to make snow!! 
+ */
+
+
+
 let Flakes = [];
 
 /**
@@ -9,15 +18,15 @@ function setup() {
 }
 
 /**
- * Creates a random flake
+ * Creates a snowflake
  */
 function createFlake() {
-    // Create a flake object with appropriate properties
+    // Create a flake with appropriate properties
     const newFlake = {
         // Position and dimensions
         x: random(0, width),
         y: 0,
-        size: random(5, 15),
+        size: random(5, 15), //random size between 5 and 15
         // Colour
         fill: "#ece2e2",
         // Movement
@@ -30,7 +39,7 @@ function createFlake() {
 }
 
 /**
- * Moves, bounces, and draws every flake in the array
+ * Moves, bounces (in this case stops the movement at the ground), and draws every flake in the array
  */
 function draw() {
     background("#87ceeb");

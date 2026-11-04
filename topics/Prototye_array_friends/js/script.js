@@ -7,6 +7,7 @@
 
 "use strict";
 
+//starting parameters for a friend
 let friend = {
     x: 200,
     y: 50,
@@ -14,6 +15,7 @@ let friend = {
 
 }
 
+// create the array
 let friends = [];
 
 
@@ -25,9 +27,7 @@ function setup() {
     createCanvas(400, 400);
 }
 
-/**
- * 
- */
+//make a function that creates a new friend
 function makeFriend() {
     const newFriend = {
         // Position and dimensions
@@ -44,6 +44,7 @@ function makeFriend() {
     return newFriend;
 }
 
+//how to draw a friend, with eyes in a constant spot relative to the friend 
 function drawFriend(friend) {
 
     fill(0);
@@ -54,18 +55,24 @@ function drawFriend(friend) {
 
 }
 
+//move the friend
 function moveFriend(friend) {
     friend.x += friend.velocity.x
     friend.y += friend.velocity.y
+
+    //if the friend is on the left side of the mouse, move towards it having its x value increase by 1
     if (friend.x < mouseX) {
         friend.velocity.x = 1
 
+        //if the friend is on the right side of the mouse, move towards it having its x value decrease by 1
     } else if (friend.x > mouseX) {
         friend.velocity.x = -1
     }
+
+    //if the mouses y value is higher than the friend, have the friend follow it with its y value increasing
     if (friend.y < mouseY) {
         friend.velocity.y = 1
-
+        //if the mouses y value is lower than the friend, have the friend follow it with its y value decreasing
     } else if (friend.y > mouseY) {
         friend.velocity.y = -1
 
