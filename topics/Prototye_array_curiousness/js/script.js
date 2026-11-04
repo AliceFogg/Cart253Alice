@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Friends!!
+ * Alice Fogg
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * They're really curious what you're up to
  */
 
 "use strict";
@@ -32,33 +31,48 @@ function setup() {
 function makeFriend() {
     const newFriend = {
         // Position and dimensions
-        x: friend.x,
-        y: friend.y,
+        x: random(0, width),
+        y: random(0, height),
         size: friend.size,
         fill: "#000000",
         velocity: {
-            x: 2,
-            y: 2,
+            x: 0,
+            y: 0,
         }
     }
+
     return newFriend;
 }
 
-function drawFriend() {
-    const newFriend = {
-        fill(0);
+function drawFriend(friend) {
+
+    fill(0);
     circle(friend.x, friend.y, friend.size);
     fill(255);
     circle(friend.x - 7, friend.y - 5, 5);
     circle(friend.x + 7, friend.y - 5, 5);
 
 }
-}
-function moveFriend() {
-    friend.x += friend.velocity.x;
-    friend.y += friend.velocity.y;
-}
 
+function moveFriend(friend) {
+    friend.x += friend.velocity.x
+    friend.y += friend.velocity.y
+    if (friend.x < mouseX) {
+        friend.velocity.x = 1
+
+    } else if (friend.x > mouseX) {
+        friend.velocity.x = -1
+    }
+    if (friend.y < mouseY) {
+        friend.velocity.y = 1
+
+    } else if (friend.y > mouseY) {
+        friend.velocity.y = -1
+
+
+
+    }
+}
 function draw() {
     background(225);
 

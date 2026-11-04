@@ -1,30 +1,67 @@
-/**
- * Updated Beads!
- * Alice fogg
- * 
- * My beads positions are now stored in an array and remain for a short period before disappearing. 
- */
-
 "use strict";
 
+const head = {
+    // Size of the shape we move with the mouse
+    diameter: 20,
+    // Maximum length of the trail
+    maxTrailLength: 30,
+    // The trail itself will be stored here
+    trail: []
+};
+
+/**
+ * Creates a canvas
+ */
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(400, 400);
+
+    // Looks nicer without the cursor?
+    noCursor();
 }
 
-
-//draw circles based on how fast the mouse is moving
+/**
+ * Draws the rings with a for loop
+ */
 function draw() {
-    stroke(0)
-    strokeWeight(1)
-    let speed = dist(pmouseX, pmouseY, mouseX, mouseY)
+    background(150, 75, 0);
 
-    let dia = map(speed, 0, 100, 5, 100)
-    ellipse(mouseX, mouseY, dia)
+    head.x = mouseX;
+    head.y = mouseY;
 
+    for (let i = 0; i < head.trail.length; i++) {
+        // The current element of the trail
+        let element = head.trail[i];
+        // Get the shade for this element of the trail
+        // based on its position in the array (older trail elements
+        // will be darker)
+        // let shade = map(i, 0, head.trail.length, 50, 255);
 
-    //change the colour based on the speed (constrained to pink,blue,purple)
-    let colorValue = map(speed, 0, 100, 50, 255)
-    colorValue = constrain(colorValue, 50, 255)
-    fill(colorValue, 100, 200)
+        // Draw the element
+        push();
+        noStroke();
+        fill(255);
+        ellipse(element.x, element.y, head.diameter);
+        pop();
+    }
+
+    // Draw the main shape (aligned to the mouse)
+    push();
+    noStroke();
+    fill(255);
+    ellipse(head.x, head.y, head.diameter);
+    pop();
+
+    // Add the current position to the trail using the mover's
+    // current x and y
+    head.trail.push({
+        x: head.x,
+        y: head.y
+    });
+
+    // Check if the trail is too long and remove the oldest if so
+    if (head.trail.length >= head.maxTrailLength) {
+        // shift() will remove the "oldest" element
+        // It's kind of the opposite of push()
+        head.trail.shift();
+    }
 }
-
