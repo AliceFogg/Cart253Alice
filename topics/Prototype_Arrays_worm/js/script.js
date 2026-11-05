@@ -9,18 +9,13 @@
 
 "use strict";
 
-const head = {
-    // Size of the shape we move with the mouse
-    diameter: 20,
-    // Maximum length of the trail
-    maxTrailLength: 30,
-    // The trail itself will be stored here
-    trail: []
-};
 
 /**
  * Creates a canvas
  */
+
+let head;
+
 function setup() {
     createCanvas(400, 400);
 
@@ -29,6 +24,16 @@ function setup() {
 
     // remove the cursor
     noCursor();
+
+    head = {
+        //starts at the top left corner of the canvas
+        x: 10,
+        y: 5,
+
+        diameter: 30,       // Size of the head and trail 
+        maxTrailLength: 20, // How long the tail can get
+        trail: []       
+    };
 }
 
 /**
@@ -36,8 +41,17 @@ function setup() {
  */
 function draw() {
 
-    head.x = mouseX;
-    head.y = mouseY;
+    //move the head based on which key is being pressed
+    if (keyIsDown(LEFT_ARROW) === true) {
+        head.x = head.x - 1
+    } else if (keyIsDown(RIGHT_ARROW) === true) {
+        head.x = head.x + 1
+    } else if (keyIsDown(UP_ARROW) === true) {
+        head.y = head.y - 1
+    } else if (keyIsDown(DOWN_ARROW) === true) {
+        head.y = head.y + 1
+    }
+
 
     for (let i = 0; i < head.trail.length; i++) {
         // The current element of the trail

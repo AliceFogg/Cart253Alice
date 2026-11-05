@@ -132,3 +132,25 @@ This website serves as a place to compile work created for CART253, Including a 
 [link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype_Functions_AnvilFall)
 
 [link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_Functions_AnvilFall)
+
+### Arrays prototype: Snowfall
+![screenshot of running snowfall prototype](./topics/Prototype_arrays_snowfall/template-p5-project/assets/images/Screenshot%202026-11-04%20113441.png)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype_arrays_snowfall/template-p5-project)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_arrays_snowfall/template-p5-project)
+
+### Arrays prototype: Friends
+![screenshot of running friends prototype](./topics/Prototype_array_friends/assets/images/Screenshot2026-11-04113511.png)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype_array_friends)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_array_friends)
+
+
+### Arrays prototype: Worm World
+![screenshot of running worm world prototype](./topics/Prototype_Arrays_worm/assets/images/Screenshot%202026-11-04%20113611.png)
+
+[link to code](https://github.com/AliceFogg/Cart253Alice/tree/main/topics/Prototype_Arrays_worm)
+
+[link to running prototype](https://alicefogg.github.io/Cart253Alice/topics/Prototype_Arrays_worm)
