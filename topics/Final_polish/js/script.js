@@ -18,6 +18,7 @@ let friend = {
 // create the array
 let friends = [];
 
+let fontName = "Arial";
 
 /**
  * Create the canvas
@@ -28,6 +29,9 @@ function setup() {
     textFont(fontName);
     textAlign(CENTER, CENTER);
     textSize(14);
+    if (friend.x == mouseX && friend.y == mouseY) {
+        drawText();
+    }
 }
 
 //make a function that creates a new friend
@@ -84,9 +88,6 @@ function moveFriend(friend) {
     }
 }
 
-if (friend.x == mouseX) && (friend.y == mouseY) {
-
-}
 
 function drawText() {
     fill(0);
